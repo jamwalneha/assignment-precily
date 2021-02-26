@@ -6,8 +6,8 @@ import LeftContainer from "./components/LeftContainer";
 
 const HomePage = () => {
   return (
-    <div className="boxesOuterContainer">
-      <Row justify="space-around">
+    <div>
+      <Row wrap={false} justify="space-around">
         <LeftContainer />
         <RightContainer />
       </Row>

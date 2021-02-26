@@ -1,9 +1,4 @@
-.boxesOuterContainer{
-  height: max-content;
-  max-width:100vw !important;
-
-}
-.containerInput{
+.containerInput {
   margin: 10px;
 }
 
@@ -77,4 +72,7 @@
 }
 .custom-handle-s {
   bottom: -4px;
+}
+.custom-box {
+  overflow: visible;
 }
